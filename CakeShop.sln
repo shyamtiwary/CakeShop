@@ -25,6 +25,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cakeshopui", "..\cakeshopui
 		VWDPort = "53414"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{3855709F-2AE5-44FA-B368-0795A6E6C36A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2598B99E-05C5-4D52-A2E2-D934CF14C6E0} = {3855709F-2AE5-44FA-B368-0795A6E6C36A}
 	EndGlobalSection
 EndGlobal
