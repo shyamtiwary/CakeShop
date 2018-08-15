@@ -5,7 +5,25 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeShop", "CakeShop\CakeShop.csproj", "{56CE1E69-4908-42B4-85D5-BD790861046E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CakeShopUI", "CakeShopUI", "{F123CC90-8244-4A00-8F23-2B09C6ED0604}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cakeshopui", "..\cakeshopui\", "{2598B99E-05C5-4D52-A2E2-D934CF14C6E0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53414"
+		Debug.AspNetCompiler.PhysicalPath = "..\cakeshopui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53414\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53414"
+		Release.AspNetCompiler.PhysicalPath = "..\cakeshopui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53414\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53414"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +35,10 @@ Global
 		{56CE1E69-4908-42B4-85D5-BD790861046E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56CE1E69-4908-42B4-85D5-BD790861046E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56CE1E69-4908-42B4-85D5-BD790861046E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2598B99E-05C5-4D52-A2E2-D934CF14C6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2598B99E-05C5-4D52-A2E2-D934CF14C6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2598B99E-05C5-4D52-A2E2-D934CF14C6E0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2598B99E-05C5-4D52-A2E2-D934CF14C6E0}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
