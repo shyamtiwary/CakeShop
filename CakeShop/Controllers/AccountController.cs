@@ -34,6 +34,8 @@ namespace CakeShop.Controllers
             ISecureDataFormat<AuthenticationTicket> accessTokenFormat)
         {
             UserManager = userManager;
+
+
             AccessTokenFormat = accessTokenFormat;
         }
 
